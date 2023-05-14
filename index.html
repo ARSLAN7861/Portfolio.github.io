@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+  <section id="Home">
+    <div class="Pic">
+      <nav>
+        <h2 class="logo"> Port<span>folio</span></h2>
+        <ul>
+          <li><a class="smoothscroll" href="#Home">Home</a></li>
+          <li><a class="smoothscroll" href="#About">About</a></li>
+          <li><a class="smoothscroll" href="#Services">Services</a></li>
+        </ul>
+
+        <a href="contact.html" class="btn">Contact Us</a>
+
+      </nav>
+
+      <div class="content">
+        <h4>Hello, My name is </h4>
+        <h1>Arslan <span> Mumtaz</span></h1>
+        <h3>I am a Web Developer.</h3>
+
+        <div class="Newsletter">
+          <form action="mailto:arslanmumtaz0000@gmail.com">
+            <input type="email" name="email" id="male" placeholder="Enter Your Email">
+            <input type="submit" name="submit" value="Let's start">
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <section id="About">
+    <section class="about">
+      <div class="main">
+        <img src="pictures/3.jpg" alt="image not found">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Developer <span>& Designer</span></h5>
+          <p>
+            As a developer and designer, I possess a unique combination of technical and creative skills that enable me
+            to
+            bring innovative ideas to life. My expertise in programming languages, such as Python, JavaScript, and
+            HTML/CSS, allows me to develop dynamic and user-friendly applications that meet the needs of my clients. My
+            attention to detail and problem-solving skills ensure that every aspect of a project, from the user
+            interface
+            to the backend functionality, is well-crafted and functional.
+
+
+          </p>
+          <button type="button" id="talk-btn">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="Services">
+    <div class="service">
+      <div class="title">
+        <h2>Services</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-bars"></i>
+          <h5>Web Development</h5>
+          <div class="Pra">
+            <p>
+              I specialize in creating fast-loading, responsive websites that provide a
+              seamless user experience. From simple landing pages to complex e-commerce websites.
+            </p>
+
+            <p style="text-align: center;">
+              <a href="projects/web.html" class="button">Read More</a>
+            </p>
+
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-user"></i>
+          <h5>UI/UX</h5>
+          <div class="Pra">
+            <p>
+              I specialize in creating visually stunning and intuitive user interfaces and experiences. Whether you need
+              a simple landing page or a complex e-commerce website
+            </p>
+
+            <p style="text-align: center;">
+              <a href="projects/uiux.html" class="button">Read More</a>
+            </p>
+
+
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-bell"></i>
+          <h5>Programming</h5>
+          <div class="Pra">
+            <p>
+              I specialize in providing coding services in Python, Java, C++, and C#/.NET that meet your unique needs
+              and exceed your expectations.
+            </p>
+
+            <p style="text-align: center;">
+              <a href="projects/programming.html" class="button">Read More</a>
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <div class="Contact-me">
+    <p>Let Me Get You A Beautiful Website.</p>
+    <a href="contact.html" class="button-two">Hire Me</a>
+  </div>
+
+  <footer>
+    <p>Arslan Mumtaz</p>
+    <p></p>
+    <div class="social">
+
+      <a href="https://www.facebook.com/arslan.mumtaz.359"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/_arslan_mumtaz/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/arslanmumtaz"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/ARSLAN7861"><i class="fa-brands fa-github"></i></a>
+      <a href="https://dribbble.com/_Arslan786"><i class="fa-brands fa-dribbble"></i></a>
+    </div>
+    <p class="end">CopyRight By Arslan Mumtaz</p>
+  </footer>
+
+  <script>
+    // Get the button element by ID
+    var talkBtn = document.getElementById("talk-btn");
+
+    // Add an event listener to the button that redirects to the new page when clicked
+    talkBtn.addEventListener("click", function () {
+      window.location.href = "skills/skills.html"; // Replace "new-page.html" with the name of your desired HTML file
+    });
+  </script>
+
+</body>
+
+</html>
